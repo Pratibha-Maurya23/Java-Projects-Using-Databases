@@ -104,25 +104,6 @@ Java-DB-Systems/
 <br>
 
 
-## Technical Specifications
-
-| System           | DB Used | Key Classes           | OOP Concepts Implemented       |
-<br>
-|------------------|---------|-----------------------|--------------------------------|
-<br>
-| Hotel            | MySQL   | Main                  | JDBC, SQL CRUD                 |
-<br>
-| Banking          | MySQL   | User/Accounts/Manager | Encapsulation, Transactions    |
-<br>
-| Hospital         | MySQL   | Patient/Doctor        | Inheritance, Data Validation   |
-
-**Execution**:
-1. Ensure MySQL server is running
-2. Create required databases:
-   - `hotel_db`, `banking_system`, `hospital`
-3. Compile: `javac Main.java` (for each system)
-4. Run: `java Main`
-
 ## Common Features
 - Console-based interfaces
 - MySQL JDBC connectivity
